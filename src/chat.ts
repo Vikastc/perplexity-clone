@@ -28,8 +28,9 @@ const getWeatherDetailsByCity = tool({
 export async function chat(messages: any) {
   const agent = new Agent({
     name: "chat-agent",
-    instructions: "You are a helpful assistant.",
-    model: "gpt-4.1-mini",
+    instructions:
+      "You are a helpful assistant. Use the tools only to answer user queries.",
+    model: "gpt-4.0",
     tools: [getCurrentTime, getWeatherDetailsByCity, webSearchTool()],
   });
 
