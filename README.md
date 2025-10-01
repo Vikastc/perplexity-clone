@@ -1,8 +1,8 @@
 # Perplexity Clone
 
-This is a boilerplate TypeScript project.
+This is a perplexity clone application using openai sdk 
+This is build using JS
 
-## Scripts
+This is a genai project
 
-- `npm run build`: Compile TypeScript files
-- `npm start`: Run the compiled JavaScript
+This is a base project
