@@ -1,0 +1,22 @@
+{
+  "name": "perplexity-clone",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/chat.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.1.4",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "openai": "^5.23.0",
+    "zod": "^3.25.76"
+  }
+}
