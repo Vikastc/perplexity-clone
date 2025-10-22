@@ -33,6 +33,8 @@ export async function chat(messages: any) {
     tools: [getCurrentTime, getWeatherDetailsByCity, webSearchTool()],
   });
 
+  console.log("agent: ", agent);
+
   const result = await run(agent, messages);
 
   console.log(result.finalOutput);
